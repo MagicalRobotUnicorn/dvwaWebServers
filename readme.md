@@ -1,5 +1,4 @@
 <p align=”center”>
-
 <img src="images/magical.PNG">
 </p>
 
@@ -30,7 +29,7 @@ The webservers were loaded with the DVWA, deployed using the ansible script 'pen
 <b>Load Balancer for Web Servers</b>
 
 <p align=”center”>
-<img src="images/LBHenry.png">
+<img src="images/LBHenry.PNG">
 </p>
 
 To monitor the logging information from these web applications, we created a webserver dedicated to a docker container running the ELK stack of technologies, also known as Elastic Search, Logstash, and Kibana. This webbox was created within a separate network security group, which contained a rule allowing our webservers to send diagnostic information to it.
