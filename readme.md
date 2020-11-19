@@ -27,7 +27,7 @@ Red Team Security Group Final Security Rules:
 Load Balancer for Web Servers
 
 <p align=”center”>
-<img src="images/LBHEnry.png?raw=true">
+<img src="images/LBHenry.png?raw=true">
 </p>
 
 To monitor the logging information from these web applications, we created a webserver dedicated to a docker container running the ELK stack of technologies, also known as Elastic Search, Logstash, and Kibana. This webbox was created within a separate network security group, which contained a rule allowing our webservers to send diagnostic information to it.
