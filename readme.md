@@ -1,6 +1,6 @@
 <p align=”center”>
 
-<img src="images/magical.png?raw=true">
+<img src="images/magical.png">
 </p>
 This project represents the documentation of the request by a client to have a web application deployed to redundant servers, updated through a secure jump box, and having the logs from those servers sent to a machine hosting the ELK stack (Elastic Search, Log Stash, and Kabana).
 
@@ -27,7 +27,7 @@ Red Team Security Group Final Security Rules:
 Load Balancer for Web Servers
 
 <p align=”center”>
-<img src="images/LBHenry.png?raw=true">
+<img src="images/LBHenry.png">
 </p>
 
 To monitor the logging information from these web applications, we created a webserver dedicated to a docker container running the ELK stack of technologies, also known as Elastic Search, Logstash, and Kibana. This webbox was created within a separate network security group, which contained a rule allowing our webservers to send diagnostic information to it.
