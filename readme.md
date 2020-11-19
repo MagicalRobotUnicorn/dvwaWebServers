@@ -1,6 +1,6 @@
-<p align=”center”>
-<img src="images/magical.PNG">
-</p>
+<center>
+<img src="images/magical.PNG" align="center">
+</center>
 
 <b><h2>Homework 13</h2></b>
 
